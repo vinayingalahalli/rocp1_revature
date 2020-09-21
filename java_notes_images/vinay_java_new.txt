@@ -42,7 +42,7 @@ Some open source f/ws
 
 Features or Props of Java
 --------------------------------
-1) Java is Platform Independent. WORA.
+1) Java is Platform Independent. WORA(Write Once Run Anywhere).
 2) Java comes up with garbage collected by default.
 3) Java is compiled and interpreted language.
 4) Java has the 2nd fastest compiler embedded in him, where the best

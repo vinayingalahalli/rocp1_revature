@@ -1,0 +1,16 @@
+package mypack;
+
+//class name and file name should be same
+public class MyFirstJavaClass {
+
+	public static void main(String[] args) {
+	System.out.println("Hello World");
+
+	}
+/*
+ * compile a java file using
+ * javac Filenmae.java
+ * and run it using
+ * java ClassName
+ */
+}

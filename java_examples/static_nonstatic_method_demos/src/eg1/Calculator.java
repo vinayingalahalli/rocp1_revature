@@ -23,6 +23,10 @@ public class Calculator {
 		// int res=a+b;
 		return a + b;
 	}
+	
+	public float divide(float x,float y) {
+		return x/y;
+	}
 }
 //add is overloaded above- 3types of add with unique argument/parameters list
 //login(email,password)

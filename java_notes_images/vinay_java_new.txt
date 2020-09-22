@@ -337,6 +337,17 @@ there are types of interfaces
 		is used for compiler to mark that it does some job.
 
 
+
+Arrays
+---------------
+-collection/container of similar type
+-group of data of similar type/category can be stored in a contiguos memory locations.
+-fixed in size it cannot be resized once given a size value.
+-the elements in array are accessible with the help of index.
+-the index in an array starts from 0, for eg if you have an array of size 10 so the index starts from 0 till 9
+
+
+
 Wrapper Classes
 ------------------------
 *here the primitives are wrapped into a object to acheive

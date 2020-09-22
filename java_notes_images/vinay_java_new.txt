@@ -7,7 +7,7 @@ JAVA
 OAK - JAVA(island name) - coffee mug. reg under Sun Microsystems pvt LTD.
 
 Microsoft Takes Over Java from 1994 till 2010.
-From 2010 till date officially Sun microsys is part of Oracle Co-op.
+From 2010 till date officially Sun microsystems is part of Oracle Co-op.
 Latest Version - Java 15 Sept,2020.
 Official Site - www.oracle.com
 
@@ -97,9 +97,9 @@ per .java file and highly recommends to use public.
 
 static keyword
 ---------------------
-*static are the things which are loaded directly inside the Stack.
+* static are the things which are loaded directly inside the Stack.
 * such things can be accessed directly without creating any object.
-* some reusable or frequently accessed stuff will be made as static.
+* some reusable or frequently or common to your application/users, accessed stuff make it as static.
 * static stuff are considered to be as class level.
 * static also refers to, there will be only and only one such copy.
 

@@ -1,6 +1,7 @@
 package examples;
 
 public class Demo1 {
+	//C(Create)R(Read)U(Update)D(Delete)
 
 	public static void main(String[] args) {
 		int ar[]= {10,22,33,11,10,10,11,22,44,22};

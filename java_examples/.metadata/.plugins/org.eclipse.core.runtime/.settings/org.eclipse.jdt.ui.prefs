@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="eg1.Demo1"><rhs name\="eg1.Demo1"/></lhs><lhs name\="eg1.Calculator"><rhs name\="eg1.Calculator"/></lhs><lhs name\="eg2.Animal"><rhs name\="eg2.Animal"/></lhs><lhs name\="eg3_fordatatypesNobjects.Demo"><rhs name\="eg3_fordatatypesNobjects.Demo"/></lhs><lhs name\="eg4.Student"><rhs name\="eg4.Student"/></lhs><lhs name\="examples.PrimeNumber"><rhs name\="examples.PrimeNumber"/></lhs><lhs name\="examples.PrimeSeries"><rhs name\="examples.PrimeSeries"/></lhs></history>
 content_assist_number_of_computers=17
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

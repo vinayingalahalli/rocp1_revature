@@ -135,7 +135,7 @@ parameter list. such thing is called as constructor overloading.
 
 this keyword
 ------------------
--> this is used to point the current class objects(global instance variables)
+-> this is used to point the current class objects(global instance variables/objects)
 -> this can also be used in chaining of constructors in same class at the first line of
 constructor only.
 

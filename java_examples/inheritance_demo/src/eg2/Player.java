@@ -2,7 +2,7 @@ package eg2;
 
 public class Player extends Person {
 
-	//Bring a has-A relationship here stating that Player plays for a Team(tid,teamName,coachName)
+	//Bring a has-A relationship here stating that Player plays for a Team(tid,teamName,coachName)inheritance
 	private double score;
 	private String sportName;
 	

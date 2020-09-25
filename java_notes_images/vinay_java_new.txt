@@ -65,8 +65,8 @@ code.
 
 
 
-OOC
---------
+OOC//Object Oriented Concepts/Pillars
+-------------------------------------------
 1)Class & Objects
 2)Encapsulation
 3)Inheritance (Code Reusability)
@@ -147,7 +147,7 @@ directly with a object. To set the value for such object the programmer
 should make use of a construtor or a appropriate setter method, and to
 retrive or read the value he should make use of appropriate getter method.
 This can be acheived by making the instance variables as private and 
-keeping appropraite setter and getter for the same.
+keeping appropriate setter and getter for the same.
 for eg:
 public class Student{
 private int studentId;

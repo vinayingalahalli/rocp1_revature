@@ -455,12 +455,21 @@ finally comes at the end of all catch blocks.
 used to throw multpile exceptions at the method level to the calling method.
 use it to force the programmer who is creating the object for that
 method will handle it.
+public String substring​(int beginIndex) throws IndexOutOfBoundException,SomeOtherException{
+//here the method is signifying that it throws those list of exceptions
+}
 
 
 3)throw
 ---------------
 used to create the exception object of our own to throw our own customised
 exception with our own customised message.
+public boolean isValidAge(int age) throws MyException,BlaBlaException{//for developer
+if(age<=0){
+//explicit creation of exception object for your custom scenario with custom message
+throw new MyException("Age cannot be zero or -ve");//for jvm
+}
+}
 
 
 Collection F/w

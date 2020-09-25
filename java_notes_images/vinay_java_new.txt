@@ -325,8 +325,7 @@ you dont have to use abstract keyword to the method at all.
 * all the methods in interface are by default abstract as well as public.
 * if you declare any variable within a interface then that variable is
 considered to be as a final variable.
-*a class can be extended only once but an interface can be implemented
-any number of times.
+*we can extend only 1 class at a time but we can implement as many number of interfaces we wish to in a class.
 * apart from this it gets all the properties like it can have inner interface,
 anonymous interface, and you can also extend a interface by other interface.
 * use implements keyword to implement any interface.
@@ -335,6 +334,7 @@ there are types of interfaces
 2)Functional Interface -> Interface with only and only one abstract method.
 3)Marker Interface -> Interface with no abstract methods at all, which
 		is used for compiler to mark that it does some job.
+                 Serializable,Clonable
 
 
 

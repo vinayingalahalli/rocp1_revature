@@ -7,6 +7,7 @@ public class Employee extends Person{
 	private String designation; //has-A
 	private double salary;//has-A
 	private Address permenantAddress;//has-A
+//	private Address presentAddress;
 	
 	public Employee() {
 		// TODO Auto-generated constructor stub

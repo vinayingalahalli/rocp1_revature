@@ -2,7 +2,6 @@ package eg2;
 
 import java.util.HashSet;
 import java.util.Set;
-
 public class ProductMain {
 
 	public static void main(String[] args) {
@@ -27,3 +26,5 @@ public class ProductMain {
 	}
 
 }
+
+//Create Flight(fid,fname,cost,rating) and eliminate the duplicates

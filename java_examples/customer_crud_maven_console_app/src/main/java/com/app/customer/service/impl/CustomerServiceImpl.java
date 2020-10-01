@@ -88,8 +88,13 @@ public class CustomerServiceImpl implements CustomerService {
 
 	@Override
 	public Customer getCustomerByContact(long contact) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		Customer customer=null;
+		if(isValidContact(contact)) {
+			customer=dao.getCustomerByContact(contact);
+		}else {
+			throw new BusinessException("Entered contact - "+contact+" is INVALID");
+		}
+		return customer;
 	}
 
 	@Override

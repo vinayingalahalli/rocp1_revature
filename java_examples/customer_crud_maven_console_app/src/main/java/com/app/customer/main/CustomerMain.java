@@ -78,7 +78,17 @@ public class CustomerMain {
 			case 6:System.out.println("Thanks for your interest.. This is still under construction");
 
 				break;
-			case 7:System.out.println("Thanks for your interest.. This is still under construction");
+			case 7:System.out.println("Enter customer contact number to get the customer details");
+				long contact=Long.parseLong(sc.nextLine());
+				try {
+					Customer c2=service.getCustomerByContact(contact);
+					if(c2!=null) {
+						System.out.println("Customer with the contact "+contact+" is : ");
+						System.out.println(c2);
+					}
+				} catch (BusinessException e2) {
+					System.out.println(e2.getMessage());
+				}
 
 				break;
 			case 8:System.out.println("Thanks for your interest.. This is still under construction");

@@ -84,8 +84,30 @@ public class CustomerDAOImpl implements CustomerDAO {
 
 	@Override
 	public Customer getCustomerByContact(long contact) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		Customer customer=null;
+		try(Connection connection=MySqlConnection.getConnection()){
+			String sql="select id,name,gender,city,age from customer where contact=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setLong(1, contact);
+			
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				customer=new Customer();
+				customer.setId(resultSet.getInt("id"));
+				customer.setAge(resultSet.getInt("age"));
+				customer.setContact(contact);
+				customer.setName(resultSet.getString("name"));
+				customer.setGender(resultSet.getString("gender"));
+				customer.setCity(resultSet.getString("city"));
+			}else {
+				throw new BusinessException("No customers with contact "+contact+" in the DB");
+			}
+		}catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e); //for test
+			throw new BusinessException("Internal error occured... Kindly contact SYSADMIN!!!!!....");
+		}
+		
+		return customer;
 	}
 
 	@Override

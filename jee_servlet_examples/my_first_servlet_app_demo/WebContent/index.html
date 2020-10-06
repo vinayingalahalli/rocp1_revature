@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet Demo</title>
+</head>
+<body>
+<form action="hi">
+Enter Name<input type="text" name="fname">
+<input type="submit" value="Click here for doGet()">
+</form>
+<br/>
+<br/>
+<br/>
+<form action="hi" method="post">
+Enter First Name<input type="text" name="fname"><br/>
+Enter Last Name<input type="text" name="lname"><br/>
+Enter Password <input type="password" name="password"><br/>
+Enter Email <input type="email" name="email"><br/>
+Gender <input type="radio" name="gender" value="Female">F &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" value="Male">M &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" value="Others">O &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>
+Country <select name="country">
+<option value="INDIA">India</option>
+<option value="USA">USA</option>
+<option value="OTHERS">Others</option>
+</select><br/>
+Select Hobbies<br/>
+<input type="checkbox" name="hobby" value="Gaming">Gaming<br/>
+<input type="checkbox" name="hobby" value="Reading Books">Books<br/>
+<input type="checkbox" name="hobby" value="Indoor Sports">Indoor Sports<br/>
+<input type="checkbox" name="hobby" value="Outdoor Sports">Outdoor Sports<br/>
+<input type="checkbox" name="hobby" value="Others">Other Hobbies<br/>
+<input type="submit" value="Click here for doPost()">
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.app.service.impl.test.CustomerServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in com.app.service.impl.test.CustomerServiceImplTest
+testAddCustomer  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.app.service.impl.test.CustomerServiceImplTest.testAddCustomer(CustomerServiceImplTest.java:11)
+
+testUpdateCustomer  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.app.service.impl.test.CustomerServiceImplTest.testUpdateCustomer(CustomerServiceImplTest.java:16)
+
+testDeleteCustomer  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.app.service.impl.test.CustomerServiceImplTest.testDeleteCustomer(CustomerServiceImplTest.java:21)
+
+testGetCustomer  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.app.service.impl.test.CustomerServiceImplTest.testGetCustomer(CustomerServiceImplTest.java:26)
+
